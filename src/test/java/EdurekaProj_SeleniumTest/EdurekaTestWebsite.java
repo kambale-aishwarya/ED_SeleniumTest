@@ -30,7 +30,8 @@ public class EdurekaTestWebsite {
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless","--window-size=1920,1200","--ignore-certificate-errors","--disable-extensions","--no-sandbox","--disable-dev-shm-usage");
 		drv1 = new ChromeDriver(options);	
-		drv1.get("http://3.139.96.63:8081/");
+		//drv1.get("http://3.139.96.63:8081/");
+		drv1.get("http://172.31.40.208:8081");
 		drv1.manage().window().maximize();
 		drv1.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		WebElement link1 = drv1.findElement(By.xpath("//*[@id=\"About Us\"]"));
