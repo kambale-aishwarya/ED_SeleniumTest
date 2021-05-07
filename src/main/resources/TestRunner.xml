@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Edureka_DevOps_Project" verbose="1" >
+  <test name="Edureka_Test_Website" >
+    <classes>
+       <class name="EdurekaProj_SeleniumTest.EdurekaTestWebsite" />
+    </classes>
+  </test>
+</suite>
