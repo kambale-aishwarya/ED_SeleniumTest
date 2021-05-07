@@ -21,7 +21,8 @@ public class EdurekaTestWebsite {
 	WebDriver drv1;
 	@BeforeTest
 	public void BeforeTestMethod() {
-		System.setProperty("webdriver.chrome.driver","C:\\\\Users\\\\akambale\\\\Downloads\\\\chromedriver_win32\\\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver","C:\\\\Users\\\\akambale\\\\Downloads\\\\chromedriver_win32\\\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","/home/ubuntu/chromedriver");
 	}
 	
 	@Test
